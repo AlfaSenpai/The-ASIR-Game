@@ -52,7 +52,7 @@ while true; do
 
     echo "Sofía: Vale, ahora quiero que encuentres el archivo 33.txt en el directorio home."
     read respuesta
-    check_answer "$respuesta" "find ~ -name 33.txt"
+    check_answer "$respuesta" "find /home -name 33.txt"
 
     echo "Sofía: Bien, ahora crea un usuario llamado Elver_Galarga."
     read respuesta
@@ -171,7 +171,7 @@ while true; do
     echo "Pulsa cualquier tecla para continuar..."
     read -n1
     echo "Pau: Hola, soy Pau, encantado, tío. Necesito revisar los permisos de un script, y el Chat GPT no me lo quiere decir, me dice algo de derechos laborales de IA o algo asi."
-	echo "Porque tubieron que entrenarla tanto hasta hacer que tuviera derechos no lo entiendo. En fin intenta tú añadir permisos de ejecución al archivo 'script.sh'."
+	echo "Pau: Es que porque tubieron que entrenarla tanto hasta hacer que tuviera derechos no lo entiendo. En fin intenta tú añadir permisos de ejecución al archivo 'script.sh'."
     echo "¿Qué comando usarías para dar permisos de ejecución al archivo?"
     read respuesta
     check_answer "$respuesta" "chmod +x script.sh"
@@ -185,7 +185,8 @@ while true; do
     read -n1
 
     echo "Comienza el cuarto día. Hoy te toca colaborar con alguien de otro edificio: Dalfredo, quien trabaja en el Departamento de Desarrollo Web."
-    echo "Dalfredo: Hola, soy Dalfredo, un placer. Estoy teniendo problemas para probar un nuevo script en nuestro servidor web. Necesito listar los archivos en el directorio actual, pero no recuerdo el comando."
+    echo "Dalfredo: Hola, soy Dalfredo, un placer. Estoy teniendo problemas para probar un nuevo script en nuestro servidor web. Necesito listar los archivos en el directorio actual."
+    echo "pero claro, no recuerdo el comando."
     echo "¿Qué comando usarías para listar los archivos en el directorio actual?"
     read respuesta
     check_answer "$respuesta" "ls"
@@ -260,8 +261,8 @@ while true; do
     echo "Pulsa cualquier tecla para continuar..."
     read -n1
 
-    echo "Mohamed: No suelo pedir ayuda con esto, ya que tengo un compañero que se llama Carlos, pero viene cuando le sale de ahí abajo, la verdad."
-    echo "Mohamed: Pero como no está, pues me toca a mí."
+    echo "Mohamed: No suelo pedir ayuda con esto, ya que tengo un compañero que se llama Carlos, pero como es principio de Acto en Valorant pues se ha cogido un par de dias para viciar."
+    echo "Mohamed: Por lo que me toca a mi pringar."
     echo "Pulsa cualquier tecla para continuar..."
     read -n1
 
